@@ -76,5 +76,13 @@ const { title, description, image, type, hideFooter = false } = Astro.props;
         document.addEventListener('astro:page-load', apply);
       })();
     </script>
+
+    <!-- PostHog + API timing -->
+    <script>
+      import { installBrowserMonitoring } from '@/lib/foundry-monitoring';
+      import { initApiTiming } from '@/lib/api-timing';
+      installBrowserMonitoring();
+      initApiTiming();
+    </script>
   </body>
 </html>
