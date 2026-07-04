@@ -1,6 +1,13 @@
 # verified-bases — PROJECT_STATUS
 
-Last updated: 2026-06-28
+> **ARCHIVED 2026-07-04 — removed from active fleet.**
+>
+> The storefront thesis is parked: paid checkout never landed (Cloudflare/Dodo
+> provisioning was the blocker) and no catalogue entry was ever listed. The repo
+> is kept as history; no further active development. Reopen trigger: a concrete
+> buyer/creator demand signal for verified starter "Bases."
+
+Last updated: 2026-07-04
 
 ## Why/What
 
