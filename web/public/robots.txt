@@ -2,3 +2,8 @@ User-agent: *
 Allow: /
 
 Sitemap: https://bases.sarthakagrawal.dev/sitemap-index.xml
+# Agent indexing
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /index.md
+Allow: /api/ai

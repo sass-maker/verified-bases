@@ -1,0 +1,16 @@
+# Verified Bases
+
+> Storefront for verified software bases — curated, verified building blocks with costly signals. Astro + Go on Cloudflare.
+
+## Product
+
+
+## Machine surfaces
+
+- [Agent catalog](https://shop.sassmaker.com/api/ai): JSON inventory of public surfaces
+- [Homepage markdown](https://shop.sassmaker.com/index.md): Product brief without JS
+- [This index](https://shop.sassmaker.com/llms.txt)
+
+## Optional
+
+- [Foundry](https://sassmaker.com): Parent fleet showcase

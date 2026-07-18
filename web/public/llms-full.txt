@@ -1,0 +1,26 @@
+# Verified Bases — full agent brief
+
+Storefront for verified software bases — curated, verified building blocks with costly signals. Astro + Go on Cloudflare.
+
+## Index
+
+# Verified Bases
+
+Storefront for verified software bases.
+
+## Product links
+
+
+## Machine surfaces
+
+- https://shop.sassmaker.com/llms.txt
+- https://shop.sassmaker.com/llms-full.txt
+- https://shop.sassmaker.com/api/ai
+- https://shop.sassmaker.com/index.md
+- https://shop.sassmaker.com/sitemap.xml
+- https://shop.sassmaker.com/robots.txt
+
+## Contact / fleet
+
+- Fleet: https://sassmaker.com
+- Agent email for directory verification: sarthakagrawal@agentmail.to

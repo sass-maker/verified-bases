@@ -1,0 +1,26 @@
+{
+  "name": "Verified Bases",
+  "version": "1",
+  "url": "https://shop.sassmaker.com",
+  "llms": "https://shop.sassmaker.com/llms.txt",
+  "llmsFull": "https://shop.sassmaker.com/llms-full.txt",
+  "sitemap": "https://shop.sassmaker.com/sitemap.xml",
+  "robots": "https://shop.sassmaker.com/robots.txt",
+  "markdown": {
+    "suffix": ".md",
+    "negotiation": true
+  },
+  "surfaces": [
+    {
+      "id": "home",
+      "url": "https://shop.sassmaker.com/",
+      "md": "https://shop.sassmaker.com/index.md",
+      "kind": "static",
+      "description": "Product home"
+    }
+  ],
+  "auth": {
+    "public": true,
+    "notes": "Auth-walled app routes are not agent-indexed unless listed here."
+  }
+}
