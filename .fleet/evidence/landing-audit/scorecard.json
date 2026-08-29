@@ -1,0 +1,57 @@
+{
+  "$schema": "fleet.landing-audit.v1",
+  "project": "verified-bases",
+  "priority": "P4",
+  "decision": "Hold",
+  "auditedAt": "2026-08-29",
+  "candidateUrl": "https://vary-veteran-century-command.trycloudflare.com/",
+  "productionUrl": null,
+  "releaseState": "The latest archived research surface is qualified through a temporary Cloudflare tunnel. The former public Pages hostname no longer resolves, the canonical catalog has no primary URL, and this audit did not deploy or reactivate the storefront.",
+  "implementationAction": "preserve",
+  "migrationCandidate": false,
+  "gates": {
+    "contentPurpose": {
+      "score": 100,
+      "status": "pass",
+      "evidence": "The first viewport identifies Verified Bases as an archived storefront experiment, explains the original inspectable-software thesis, and states that checkout, fulfilment, submissions, and marketplace expansion are not live. Catalogue, tier, trust, legal, social, Markdown, and machine-readable surfaces use the same retained-research contract rather than presenting a purchasable product."
+    },
+    "designQuality": {
+      "score": 95,
+      "status": "pass",
+      "evidence": "The existing dark technical-editorial system was preserved and made coherent as an archive. The visual hierarchy moves from thesis and proof anatomy through the historical workflow, retained Base, research outcome, and verification standard. Browser checks at 390 and 1440 pixels found zero overflow or runtime errors, all 18 scroll-reveal regions became visible during natural scrolling, and exactly one project strip plus one Ask AI footer rendered."
+    },
+    "seo": {
+      "score": 100,
+      "status": "pass",
+      "evidence": "The latest candidate passes all 15 checks with no failures or warnings: archive-specific title and 149-character description, self-canonical URL, complete Open Graph and Twitter metadata, raster social card, CollectionPage and WebSite JSON-LD, clean heading hierarchy, approximately 1,794 server-rendered words, and no broken internal links."
+    },
+    "geo": {
+      "score": 100,
+      "status": "pass",
+      "evidence": "The latest candidate reports S-tier 100% in the Fleet agent-index audit. It serves llms.txt, llms-full.txt, /api/ai, homepage and route Markdown, robots policy, sitemap, and JSON-LD with candidate-self-consistent URLs and explicit archive status."
+    },
+    "performance": {
+      "score": 97,
+      "status": "pass",
+      "evidence": "PSI Swarm completed 4 of 4 coverage profiles. The weighted mobile gate is good at 1.91 seconds LCP with 0.001 CLS and 0 ms TBT; fast mobile measured 845 ms and desktop 496 ms. The deliberately severe slow-3G profile measured 3.94 seconds and scored 85, while the other three profiles scored 100."
+    }
+  },
+  "verification": {
+    "passed": [
+      "Astro check: 24 files with zero errors, warnings, or hints",
+      "10-page static production build",
+      "Go Worker packages compile under GOOS=js and GOARCH=wasm",
+      "latest-candidate browser checks at 390 and 1440 pixels",
+      "18/18 scroll-reveal regions observed",
+      "latest-candidate SEO audit",
+      "latest-candidate GEO audit",
+      "latest-source PSI Swarm coverage profile",
+      "one project strip and one Ask AI footer"
+    ],
+    "advisories": [
+      "npm audit reports nine production dependency findings in the archived Astro 2 ecosystem: six high, one moderate, and two low. The available remediation is a major Astro upgrade, which was not taken for this held out-of-fleet archive because it could introduce breaking behavior.",
+      "Native go test is not applicable to the Cloudflare Worker packages because they import syscall/js; the correct WebAssembly-target compilation check passes."
+    ]
+  },
+  "minimumObserved": 95
+}
