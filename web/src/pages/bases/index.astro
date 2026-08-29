@@ -13,19 +13,19 @@ const allCounts = cats.map(c => ({
 
 <BaseLayout
   title="All Bases"
-  description="Browse every verified software Base. Filter by Mac apps, websites, internal tools, or creator tools."
+  description="Inspect the retained Verified Bases catalogue and the evidence behind the archived storefront experiment."
 >
   <section class="container-page pt-14 pb-10 md:pt-20">
     <p class="kicker">Browse</p>
     <h1 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl text-balance">
       {BASES.length === 0
         ? 'No Bases shipped yet.'
-        : `${BASES.length} verified Base${BASES.length === 1 ? '' : 's'}. Built by me.`}
+        : `${BASES.length} archived Base${BASES.length === 1 ? '' : 's'}, retained for inspection.`}
     </h1>
     <p class="mt-3 max-w-2xl text-[15px] text-muted text-pretty leading-relaxed">
       {BASES.length === 0
         ? 'The first Base is in the oven. When it ships, it lands here with a live preview, source code, the DIY-with-AI estimate, honest alternatives, and tiered pricing.'
-        : 'I shipped, tested, and maintain each one. Click any card for the full breakdown: live preview, what it does and doesn\'t, DIY-with-AI estimate, honest alternatives, and tiered pricing.'}
+        : 'Each retained listing documents its intended preview, scope, DIY-with-AI estimate, alternatives, verification evidence, and historical tier model. Nothing in this catalogue is currently offered for sale.'}
     </p>
 
     {BASES.length > 0 && (

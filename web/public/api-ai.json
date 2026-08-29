@@ -1,22 +1,20 @@
 {
   "name": "Verified Bases",
   "version": "1",
-  "url": "https://shop.sassmaker.com",
-  "llms": "https://shop.sassmaker.com/llms.txt",
-  "llmsFull": "https://shop.sassmaker.com/llms-full.txt",
-  "sitemap": "https://shop.sassmaker.com/sitemap.xml",
-  "robots": "https://shop.sassmaker.com/robots.txt",
-  "markdown": {
-    "suffix": ".md",
-    "negotiation": true
-  },
+  "url": "https://bases.sarthakagrawal.dev",
+  "description": "Archive of a storefront experiment for inspectable software starting points; no checkout or fulfilment is live.",
+  "llms": "https://bases.sarthakagrawal.dev/llms.txt",
+  "llmsFull": "https://bases.sarthakagrawal.dev/llms-full.txt",
+  "sitemap": "https://bases.sarthakagrawal.dev/sitemap-index.xml",
+  "robots": "https://bases.sarthakagrawal.dev/robots.txt",
+  "markdown": "https://bases.sarthakagrawal.dev/index.md",
   "surfaces": [
     {
       "id": "home",
-      "url": "https://shop.sassmaker.com/",
-      "md": "https://shop.sassmaker.com/index.md",
+      "url": "https://bases.sarthakagrawal.dev/",
+      "md": "https://bases.sarthakagrawal.dev/index.md",
       "kind": "static",
-      "description": "Product home"
+      "description": "Archived storefront research home"
     }
   ],
   "auth": {

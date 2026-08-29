@@ -1,15 +1,15 @@
 # Verified Bases
 
-> Storefront for verified software bases — curated, verified building blocks with costly signals. Astro + Go on Cloudflare.
+> Archive of a storefront experiment for verified software starting points. The catalogue and proof model remain inspectable; checkout and fulfilment are not live.
 
 ## Product
 
 
 ## Machine surfaces
 
-- [Agent catalog](https://shop.sassmaker.com/api/ai): JSON inventory of public surfaces
-- [Homepage markdown](https://shop.sassmaker.com/index.md): Product brief without JS
-- [This index](https://shop.sassmaker.com/llms.txt)
+- [Agent catalog](https://bases.sarthakagrawal.dev/api/ai): JSON inventory of public surfaces
+- [Homepage markdown](https://bases.sarthakagrawal.dev/index.md): Archive brief without JS
+- [This index](https://bases.sarthakagrawal.dev/llms.txt)
 
 ## Optional
 

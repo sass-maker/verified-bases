@@ -43,7 +43,12 @@ const { title, description, image, type, hideFooter = false } = Astro.props;
 
     <Nav />
 
-    <main id="main" class="pt-16">
+    <aside class="relative z-20 mt-16 border-y border-line bg-panel/90 px-4 py-2.5 text-center text-xs text-muted" aria-label="Archive status">
+      <strong class="text-fg">Archived storefront experiment.</strong>
+      The catalogue and verification method are preserved for inspection; paid checkout and fulfilment are not live.
+    </aside>
+
+    <main id="main">
       <slot />
     </main>
 
@@ -88,12 +93,15 @@ const { title, description, image, type, hideFooter = false } = Astro.props;
       is:inline
       src="https://sassmaker.com/project-strip.js"
       data-project="verified-bases"
+      crossorigin="anonymous"
       defer
     ></script>
     <script
       is:inline
       src="https://sassmaker.com/ai-chat-footer.js"
       data-name="Verified Bases"
+      data-compose="false"
+      crossorigin="anonymous"
       defer
     ></script>
   </body>

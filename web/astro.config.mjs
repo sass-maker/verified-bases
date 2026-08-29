@@ -6,7 +6,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  site: 'https://bases.sarthakagrawal.dev',
+  site: process.env.PUBLIC_ORIGIN || 'https://bases.sarthakagrawal.dev',
   output: 'static',
   trailingSlash: 'never',
   build: { format: 'file', inlineStylesheets: 'always' },

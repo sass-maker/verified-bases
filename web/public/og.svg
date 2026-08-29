@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Skip the blank prompt. Start from verified software.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Verified Bases storefront research archive.">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0a0a0b"/>
@@ -23,24 +23,24 @@
   <!-- Verified stamp -->
   <g transform="translate(80,100) rotate(-3.5)">
     <rect x="0" y="0" width="170" height="44" rx="6" ry="6" fill="none" stroke="#f0b54a" stroke-width="2"/>
-    <text x="22" y="29" font-family="ui-monospace, 'SF Mono', monospace" font-size="17" letter-spacing="3" fill="#f0b54a">✓ VERIFIED</text>
+    <text x="18" y="29" font-family="ui-monospace, 'SF Mono', monospace" font-size="17" letter-spacing="3" fill="#f0b54a">◇ ARCHIVED</text>
   </g>
 
   <text x="80" y="118" font-family="ui-monospace, 'SF Mono', monospace" font-size="17" letter-spacing="3.5" fill="#f0b54a" transform="translate(280,2)">
-    A CURATED SOFTWARE MARKETPLACE
+    STOREFRONT RESEARCH ARCHIVE
   </text>
 
   <!-- Headline -->
   <text x="80" y="270" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-weight="600" font-size="92" fill="#ececee" letter-spacing="-3">
-    Skip the blank prompt.
+    A verified-software thesis,
   </text>
   <text x="80" y="370" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-weight="600" font-size="92" fill="#f0b54a" letter-spacing="-3">
-    Start from verified software.
+    preserved with its proof.
   </text>
 
   <!-- Subhead -->
   <text x="80" y="450" font-family="ui-sans-serif, system-ui, -apple-system, sans-serif" font-size="28" fill="#9398a2" letter-spacing="-0.3">
-    Preview. Use. Own. Remix. Launch.
+    Catalogue. Verification. Pricing model. No live checkout.
   </text>
 
   <!-- Footer mark -->

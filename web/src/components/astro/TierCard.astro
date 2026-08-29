@@ -52,8 +52,8 @@ const ACCENT_LABELS: Record<Tier['key'], { hint: string }> = {
     ]}
     data-tier={tier.key}
     type="button"
-    aria-label={`Get the ${tier.label} tier — ${tier.price}`}
+    aria-label={`Inspect the archived ${tier.label} tier — formerly ${tier.price}`}
   >
-    {tier.key === 'preview' ? 'Open preview ↗' : 'Continue →'}
+    {tier.key === 'preview' ? 'Open retained preview ↗' : 'Inspect archived tier →'}
   </button>
 </div>

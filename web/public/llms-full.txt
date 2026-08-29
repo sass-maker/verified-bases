@@ -1,24 +1,24 @@
 # Verified Bases — full agent brief
 
-Storefront for verified software bases — curated, verified building blocks with costly signals. Astro + Go on Cloudflare.
+Verified Bases is an archived storefront experiment for inspectable software starting points. It preserves the catalogue, verification method, proposed pricing tiers, and fulfilment design without claiming an active store.
 
 ## Index
 
 # Verified Bases
 
-Storefront for verified software bases.
+Paid checkout, provisioning, fulfilment, and marketplace submissions are not live. The archive did not prove buyer demand or support economics.
 
 ## Product links
 
 
 ## Machine surfaces
 
-- https://shop.sassmaker.com/llms.txt
-- https://shop.sassmaker.com/llms-full.txt
-- https://shop.sassmaker.com/api/ai
-- https://shop.sassmaker.com/index.md
-- https://shop.sassmaker.com/sitemap.xml
-- https://shop.sassmaker.com/robots.txt
+- https://bases.sarthakagrawal.dev/llms.txt
+- https://bases.sarthakagrawal.dev/llms-full.txt
+- https://bases.sarthakagrawal.dev/api/ai
+- https://bases.sarthakagrawal.dev/index.md
+- https://bases.sarthakagrawal.dev/sitemap-index.xml
+- https://bases.sarthakagrawal.dev/robots.txt
 
 ## Contact / fleet
 

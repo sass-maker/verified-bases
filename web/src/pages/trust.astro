@@ -4,7 +4,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 
 <BaseLayout
   title="How I verify"
-  description="How I decide what to list, what to reject, and how often I re-check. Built and verified by Sarthak — no clones, no AI slop, no broken demos."
+  description="The verification gates retained from the archived Verified Bases storefront experiment."
 >
   <section class="container-page pt-14 pb-10 md:pt-20">
     <p class="kicker">How I verify</p>
@@ -12,16 +12,16 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
       Built. Tested. Re-verified.
     </h1>
     <p class="mt-5 max-w-2xl text-[15px] text-muted leading-relaxed text-pretty">
-      I ship every Base here myself. The point of this site is trust — so I'd rather
-      list fewer things, slower, than dump AI-generated repos online and hope. Here's
-      what makes the cut, what doesn't, and how often I re-check.
+      The proposed storefront was built around costly verification signals rather than
+      a high-volume catalogue. This page preserves what would have made the cut, what
+      would have been rejected, and how re-verification was intended to work.
     </p>
   </section>
 
   <section class="container-page py-12">
     <div class="grid gap-6 md:grid-cols-2">
       <div class="panel p-7">
-        <p class="kicker">We accept</p>
+      <p class="kicker">Would accept</p>
         <ul class="mt-5 space-y-2.5 text-[15px] text-muted">
           {[
             'Original implementations',
@@ -41,7 +41,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
       </div>
 
       <div class="panel p-7">
-        <p class="kicker" style="color: var(--color-warn);">We reject</p>
+      <p class="kicker" style="color: var(--color-warn);">Would reject</p>
         <ul class="mt-5 space-y-2.5 text-[15px] text-muted">
           {[
             'Copied source code, UI, branding, or assets',
@@ -66,7 +66,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
     <header class="max-w-2xl">
       <p class="kicker">My process</p>
       <h2 class="mt-3 text-3xl font-semibold tracking-tight text-fg sm:text-4xl text-balance">
-        Five gates before a Base goes live.
+        Five proposed gates before a Base could go live.
       </h2>
     </header>
 
@@ -92,7 +92,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
       <div>
         <p class="kicker">Anti-clone</p>
         <h2 class="mt-3 text-2xl font-semibold text-fg sm:text-3xl text-balance">
-          We don't sell clones. We sell ownable alternatives.
+          The model rejected clones in favour of ownable alternatives.
         </h2>
       </div>
       <div class="space-y-4 text-[15px] text-muted leading-relaxed text-pretty">
@@ -122,8 +122,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
     </div>
 
     <div class="mt-12 flex flex-wrap items-center gap-3 border-t border-line pt-8">
-      <a href="/bases" class="btn btn-primary">Browse what's verified →</a>
-      <a href="/collab" class="btn btn-ghost">Or send me what you built</a>
+      <a href="/bases" class="btn btn-primary">Inspect the archived catalogue →</a>
     </div>
   </section>
 </BaseLayout>

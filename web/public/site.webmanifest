@@ -1,7 +1,7 @@
 {
   "name": "Verified Software Bases",
   "short_name": "verified/bases",
-  "description": "A curated marketplace of working software Bases. Preview them, use them, buy the source code, remix them with AI, or get help launching them.",
+  "description": "Archive of a storefront experiment for inspectable software starting points.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

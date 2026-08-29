@@ -9,7 +9,7 @@ interface Props {
 const DEFAULTS = {
   title: 'Verified Software Bases',
   description:
-    'Skip the blank prompt. Start from verified software. A curated marketplace of working software Bases you can preview, use, own, remix, or launch.',
+    'Archive of a storefront experiment for inspectable software starting points, retained with its catalogue, verification method, and commercial thesis.',
   image: '/og.png', // generated from og.svg by `npm run prebuild`
 };
 
@@ -20,6 +20,19 @@ const pageTitle =
 
 const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://bases.sarthakagrawal.dev');
 const ogImage = new URL(image, Astro.site ?? 'https://bases.sarthakagrawal.dev');
+const siteUrl = new URL('/', Astro.site ?? 'https://bases.sarthakagrawal.dev');
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: pageTitle,
+  url: canonical.href,
+  description,
+  isPartOf: {
+    '@type': 'WebSite',
+    name: DEFAULTS.title,
+    url: siteUrl.href,
+  },
+};
 
 // Cloudflare Web Analytics token — set at build time via PUBLIC_CF_BEACON.
 // Falls back to silent no-op when unset (local dev, preview environments).
@@ -36,6 +49,7 @@ const beaconToken = import.meta.env.PUBLIC_CF_BEACON ?? '';
 <title>{pageTitle}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
+<script type="application/ld+json" is:inline set:html={JSON.stringify(structuredData)} />
 
 <meta property="og:type" content={type} />
 <meta property="og:url" content={canonical} />
