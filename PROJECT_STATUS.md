@@ -3,11 +3,13 @@
 > **ARCHIVED 2026-07-04 — removed from active fleet.**
 >
 > The storefront thesis is parked: paid checkout never landed (Cloudflare/Dodo
-> provisioning was the blocker) and no catalogue entry was ever listed. The repo
+> provisioning was the blocker). The source retains a TinyGPT starter listing,
+> but current preview, acquisition and delivery are unqualified. The repo
 > is kept as history; no further active development. Reopen trigger: a concrete
 > buyer/creator demand signal for verified starter "Bases."
 
-Last updated: 2026-07-04
+Last reviewed: 2026-09-07. The implementation notes below are historical;
+the current qualification limits and resumption criteria are in the README.
 
 ## Why/What
 

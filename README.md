@@ -2,8 +2,9 @@
 
 > Skip the blank prompt. Start from verified software.
 
-A curated marketplace where buyers can preview, use, buy, own, remix, and launch
-verified software **Bases** built by creators.
+A parked storefront prototype for packaged software **Bases**. Its retained
+TinyGPT starter listing does not establish a currently verified preview,
+purchasable package or completed delivery workflow.
 
 Bet: even when code generation is cheap, people still pay for **judgment,
 verification, packaging, ownership, and a path to launch**.
@@ -17,7 +18,7 @@ verified-bases/
 │   └── docs/archive/2026-06-20-prd-distilled-phase1-shipped.md — archived short spec
 ├── web/                      — Astro 5 + React 19 + Tailwind v4 (Cloudflare Pages)
 │   ├── src/
-│   │   ├── data/bases.ts            — catalogue (empty; copy-paste schema inside)
+│   │   ├── data/bases.ts            — retained TinyGPT starter listing and schema
 │   │   ├── pages/                   — /, /bases, /bases/[slug], /trust,
 │   │   │                              /collab, /about, /privacy, /terms, /refund, /404
 │   │   ├── components/astro/        — Nav, Footer, Head, BaseCard, TierCard, TierModal
@@ -90,10 +91,18 @@ cd web && npm run build && npx wrangler pages deploy dist --project-name=verifie
 
 ## Status
 
-**Phase 1 — Manual Curated Store**, per `docs/PRD-full.md` §31. Buyers can
-preview, place intent, or pay via Dodo Checkout; fulfilment (sending source,
-running a remix, deploying for Launch Help) is manual until paid demand is
-proven.
+**Inactive prototype.** The source implements a proposed manual curated store,
+per `docs/PRD-full.md` §31. It contains a TinyGPT Specialist Starter listing,
+prices and verification badges dated June 2026. Those historical labels are
+not fresh qualification evidence. On 2026-09-07 its listed preview hostname,
+`tinygpt.sarthakagrawal.dev`, did not resolve from the verification machine;
+browser verification was unavailable. No checkout or delivery was exercised.
+
+Before resuming, establish one concrete buyer need and support economics, then
+verify the exact deliverable, license, setup, preview and acquisition path.
+Use an existing storefront for that first transaction if sufficient; expanding
+marketplace infrastructure is not justified by the retained listing alone.
+Payment provisioning and any publication remain separately approved actions.
 
 See `PROJECT_STATUS.md` for the open punch list.
 
