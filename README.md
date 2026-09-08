@@ -94,9 +94,9 @@ cd web && npm run build && npx wrangler pages deploy dist --project-name=verifie
 **Inactive prototype.** The source implements a proposed manual curated store,
 per `docs/PRD-full.md` §31. It contains a TinyGPT Specialist Starter listing,
 prices and verification badges dated June 2026. Those historical labels are
-not fresh qualification evidence. On 2026-09-07 its listed preview hostname,
-`tinygpt.sarthakagrawal.dev`, did not resolve from the verification machine;
-browser verification was unavailable. No checkout or delivery was exercised.
+not fresh qualification evidence. On 2026-09-08, `tinygpt.sarthakagrawal.dev`, the recorded Pages hostname
+`verified-bases-web.pages.dev`, and target `bases.sarthakagrawal.dev` did not
+resolve from the verification machine. No checkout or delivery was exercised.
 
 Before resuming, establish one concrete buyer need and support economics, then
 verify the exact deliverable, license, setup, preview and acquisition path.
@@ -104,7 +104,27 @@ Use an existing storefront for that first transaction if sufficient; expanding
 marketplace infrastructure is not justified by the retained listing alone.
 Payment provisioning and any publication remain separately approved actions.
 
-See `PROJECT_STATUS.md` for the open punch list.
+### Deferred resumption requirements
+
+These are historical requirements, not an active launch queue. No GitHub Issues
+were open at the 2026-09-08 check.
+
+1. Establish a concrete buyer need, one exact deliverable and support economics.
+   Prefer an existing storefront for that first package; do not build a generic
+   marketplace before demand is established.
+2. Verify the package, license, setup instructions and a working preview against
+   the actual deliverable. Historical verification badges are insufficient.
+3. If this storefront is deliberately revived, reconcile retained provider
+   resources and DNS, configure payment products/webhooks and transactional
+   delivery, then prove a test purchase, order record, receipt, download and
+   refund. Existing provisioning checkmarks do not prove current operation.
+4. Publish only after the buyer path works. Keep creator dashboards, additional
+   listings, automated fulfilment and recurring hosting deferred until demand
+   justifies them.
+
+The [historical status](docs/archive/2026-09-08-storefront-status.md) preserves
+all former implementation notes and launch checklist items. The current
+[project status](PROJECT_STATUS.md) points here as their single active home.
 
 ## License
 
